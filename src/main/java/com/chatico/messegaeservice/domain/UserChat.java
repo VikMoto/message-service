@@ -36,7 +36,6 @@ public class UserChat {
     private String email;
 
     @Enumerated(EnumType.STRING)
-    @Column(nullable = false, unique = true)
     private Gender gender;
 
 
